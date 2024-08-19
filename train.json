@@ -1,0 +1,152 @@
+[
+    {
+        "instruction": "Analisar",
+        "input": "o efeito de um blend de Cannabis Sativa e predominantemente Indica na aprendizagem de idiomas",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Aprendizagem de Idiomas\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Foco\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Ansiedade\\\" [label=\\\"Reduz (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Foco\\\" -> \\\"Aprendizagem de Idiomas\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Ansiedade\\\" -> \\\"Aprendizagem de Idiomas\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o consumo de um blend predominantemente Sativa e a capacidade de memorização de longo prazo",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Memorização de Longo Prazo\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Concentração\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Motivação\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Concentração\\\" -> \\\"Memorização de Longo Prazo\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Motivação\\\" -> \\\"Memorização de Longo Prazo\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência do teor de THC e CBD em um blend Indica na retenção de informações em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Teor de THC (Blend Indica)\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Teor de CBD (Blend Indica)\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend predominantemente Indica e a ansiedade em estudantes universitários",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Ansiedade\\\" [label=\\\"Reduz (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Ansiedade\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o perfil de terpenos em um blend Sativa e o desempenho em provas de múltipla escolha",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Perfil de Terpenos (Blend Sativa)\\\" -> \\\"Desempenho em Provas\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "o impacto do método de consumo (inalação vs. ingestão) na concentração de canabinoides em um blend Indica e seu efeito na aprendizagem",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Método de Consumo\\\" -> \\\"Concentração de Canabinoides (Blend Indica)\\\" [label=\\\"Influencia (PLS-SEM)\\\", color=\\\"green\\\"];\\n \\\"Concentração de Canabinoides (Blend Indica)\\\" -> \\\"Aprendizagem\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o consumo de um blend predominantemente Sativa e a capacidade de foco em estudantes com TDAH",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Foco\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Impulsividade\\\" [label=\\\"Reduz (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Impulsividade\\\" -> \\\"Foco\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o uso de um blend Indica e a retenção de informações em palestras",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Indica\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência da dosagem em um blend predominantemente Indica e seu efeito na capacidade de aprendizagem",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Dosagem (Blend Predominantemente Indica)\\\" -> \\\"Aprendizagem\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend Sativa e a performance em trabalhos em grupo",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Performance em Grupo\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Comunicação\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Comunicação\\\" -> \\\"Performance em Grupo\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "o efeito de um blend de Cannabis Sativa e Indica na capacidade de resolução de problemas matemáticos",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Resolução de Problemas\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Pensamento Lógico\\\" [label=\\\"Estimula (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Pensamento Lógico\\\" -> \\\"Resolução de Problemas\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o consumo de um blend predominantemente Sativa e a fluência verbal em debates",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Fluência Verbal\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Articulação de Ideias\\\" [label=\\\"Melhora (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Articulação de Ideias\\\" -> \\\"Fluência Verbal\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência do teor de CBD em um blend Indica na ansiedade durante apresentações em público",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Teor de CBD (Blend Indica)\\\" -> \\\"Ansiedade\\\" [label=\\\"Reduz (PLS-SEM)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend predominantemente Indica e a qualidade do sono em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Qualidade do Sono\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Qualidade do Sono\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o perfil de terpenos em um blend Sativa e a capacidade de concentração em leituras",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Perfil de Terpenos (Blend Sativa)\\\" -> \\\"Concentração\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "o impacto do método de extração na concentração de canabinoides em um blend Indica e seu efeito na memória",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Método de Extração\\\" -> \\\"Concentração de Canabinoides (Blend Indica)\\\" [label=\\\"Influencia (PLS-SEM)\\\", color=\\\"green\\\"];\\n \\\"Concentração de Canabinoides (Blend Indica)\\\" -> \\\"Memória\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend predominantemente Sativa e a criatividade em redações",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Criatividade em Redações\\\" [label=\\\"Aumenta (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Pensamento Divergente\\\" [label=\\\"Estimula (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Pensamento Divergente\\\" -> \\\"Criatividade em Redações\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o uso de um blend Indica e a redução do estresse em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Indica\\\" -> \\\"Estresse\\\" [label=\\\"Reduz (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Promove (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Estresse\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência da genética da planta na composição química de um blend predominantemente Sativa e seu efeito na capacidade de foco",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Genética da Planta\\\" -> \\\"Composição Química (Blend Predominantemente Sativa)\\\" [label=\\\"Influencia (PLS-SEM)\\\", color=\\\"green\\\"];\\n \\\"Composição Química (Blend Predominantemente Sativa)\\\" -> \\\"Foco\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend Sativa e a performance em atividades que exigem coordenação motora fina, como desenho",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Coordenação Motora Fina\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Concentração\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Concentração\\\" -> \\\"Coordenação Motora Fina\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "o efeito de um blend de Cannabis Sativa e Indica na memória de curto prazo em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Memória de Curto Prazo\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa-Indica\\\" -> \\\"Foco\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Foco\\\" -> \\\"Memória de Curto Prazo\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o consumo de um blend predominantemente Sativa e o desempenho em tarefas de atenção seletiva em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Atenção Seletiva\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Impulsividade\\\" [label=\\\"Reduz (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Impulsividade\\\" -> \\\"Atenção Seletiva\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência do teor de THC e CBD em um blend Indica na capacidade de aprendizagem verbal em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Teor de THC (Blend Indica)\\\" -> \\\"Aprendizagem Verbal\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Teor de CBD (Blend Indica)\\\" -> \\\"Aprendizagem Verbal\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend predominantemente Indica e a performance em tarefas de memória espacial em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Memória Espacial\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Memória Espacial\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o perfil de terpenos em um blend Sativa e a capacidade de resolução de problemas complexos em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Perfil de Terpenos (Blend Sativa)\\\" -> \\\"Resolução de Problemas Complexos\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "o impacto do método de cultivo na concentração de canabinoides em um blend Indica e seu efeito na memória de longo prazo em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Método de Cultivo\\\" -> \\\"Concentração de Canabinoides (Blend Indica)\\\" [label=\\\"Influencia (PLS-SEM)\\\", color=\\\"green\\\"];\\n \\\"Concentração de Canabinoides (Blend Indica)\\\" -> \\\"Memória de Longo Prazo\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o consumo de um blend predominantemente Sativa e a capacidade de aprendizado visuoespacial em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Aprendizado Visuoespacial\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Predominantemente Sativa\\\" -> \\\"Concentração\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Concentração\\\" -> \\\"Aprendizado Visuoespacial\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Analisar",
+        "input": "a correlação entre o uso de um blend Indica e a capacidade de retenção de informações em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Indica\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Indica\\\" -> \\\"Relaxamento\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Relaxamento\\\" -> \\\"Retenção de Informações\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    },
+    {
+        "instruction": "Avaliar",
+        "input": "a influência da proporção THC:CBD em um blend predominantemente Indica e seu efeito na capacidade de aprendizagem motora em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Proporção THC:CBD (Blend Predominantemente Indica)\\\" -> \\\"Aprendizagem Motora\\\" [label=\\\"Modula (PLS-SEM)\\\", color=\\\"green\\\"];\\n }"
+    },
+    {
+        "instruction": "Modelar",
+        "input": "a relação entre o uso de um blend Sativa e a performance em tarefas de atenção sustentada em estudantes",
+        "output": "digraph {\\n node [shape=circle, fontname=\\\"Calibri Bold\\\"];\\n edge [fontname=\\\"Calibri Bold\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Atenção Sustentada\\\" [label=\\\"Melhora (PLS-SEM)\\\", color=\\\"blue\\\"];\\n \\\"Blend Sativa\\\" -> \\\"Energia\\\" [label=\\\"Aumenta (NCA)\\\", color=\\\"blue\\\"];\\n \\\"Energia\\\" -> \\\"Atenção Sustentada\\\" [label=\\\"Influencia (NCA)\\\", color=\\\"blue\\\"];\\n }"
+    }
+]
